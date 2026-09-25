@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Lenis from "lenis";
-import { director } from "./director";
+import { director } from "./lib/director";
 import { LanguageProvider, useLanguage } from "./locales";
 import { usePrefersReducedMotion } from "./hooks/useResponsive3D";
 import { Experience } from "./three/Experience";
